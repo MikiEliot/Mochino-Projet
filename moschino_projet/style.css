@@ -1,0 +1,188 @@
+@font-face {
+  font-family:'Herr Von Muellerhoff';
+  src: url('herrvonmuellerhoff.ttf'); 
+  src: 
+       url('herrvonmuellerhoff.eot?#iefix') format('embedded-opentype'), 
+       url('herrvonmuellerhoff.woff2') format('woff2'), 
+       url('herrvonmuellerhoff.woff') format('woff'), 
+       url('herrvonmuellerhoff.ttf') format('truetype'), 
+       url('herrvonmuellerhoff.svg') format('svg');
+}
+
+
+@font-face {
+  font-family:'Quattrocento Sans';
+  src: url('QuattrocentoSans-Regular.ttf');
+  src:
+       url('QuattrocentoSans-Regular.eot?#iefix') format('embedded-opentype'),
+       url('QuattrocentoSans-Regular.woff2') format('woff2'), 
+       url('QuattrocentoSans-Regular.woff') format('woff'), 
+       url('QuattrocentoSans-Regular.ttf') format('truetype'),
+       url('QuattrocentoSans-Regular.svg') format('svg'); 
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('Oswald-Regular.ttf'); 
+  src:
+       url('Oswald-Regular.eot?#iefix') format('embedded-opentype'), 
+       url('Oswald-Regular.woff2') format('woff2'), 
+       url('Oswald-Regular.woff') format('woff'), 
+       url('Oswald-Regular.ttf') format('truetype'), 
+       url('Oswald-Regular.svg') format('svg'); 
+}
+
+body
+{	
+	max-width: 1200px;
+	background-color: #FFFFFF;
+	margin-left: 5%;
+	margin: auto;
+}
+
+
+aside
+{	
+	font-family:'Quattrocento Sans', Arial, sans-serif ;
+	padding-top: 3em;
+	text-align: center;
+	height: 4em;
+	background-color: #333;
+	margin: auto;
+	color: #FFFFFF;
+}
+
+header
+{	
+	font-family:'Herr Von Muellerhoff', Arial, sans-serif;;
+	text-align: center;
+	font-size: 4em;
+	padding-top: 1em;
+	margin: auto;
+
+}
+h3
+{
+	font-family:'Quattrocento Sans', Arial, sans-serif ;
+	text-align: center;
+	font-size: 16px;
+	font-style: italic;
+}
+
+nav
+{
+	border-top: 3px solid gray;
+	border-bottom: 3px solid gray;
+	max-width: 1200px;
+	min-width: 400px;
+	font-weight: bold;
+}	
+ul
+{	
+	text-transform: uppercase;
+	font-family: 'Oswald', Arial, sans-serif;
+	max-width: 300px;
+	list-style-type: none;
+	display: flex;
+	flexbox: row;
+	justify-content: space-around;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+a
+{
+	text-decoration: none;
+	color: black;
+
+}
+a:active
+{
+	color: green;
+}
+
+article
+{	
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: auto;
+}
+img
+{
+	max-width: 350px;
+	max-height: 350px;
+}
+
+.sous_images
+{
+	text-transform: uppercase;
+	font-family: 'Oswald', Arial, sans-serif;
+	font-weight: 100;
+	color: #000;
+}
+.sous_images:hover
+{
+	background-color: yellow;
+}
+}
+li:hover
+{
+	background-color: yellow;
+}
+
+footer
+{	
+	text-align: center;
+	height: 12em;
+	background-color: #333;
+	margin: auto;
+	color: #FFFFFF;
+}
+div ul
+{
+	width: 180px;
+	text-align: center;
+	font-size: 16px;
+
+}
+.page_nav
+{	
+
+	border: 16px solid lightgray;
+	color: #FFF;
+	background-color: lightgray;
+}
+div span
+{
+	color: #FFFFFF;
+}
+
+footer h3
+{	
+	padding-top: 1em;
+	color: #FFF;
+	font-family: 'Herr Von Muellerhoff', Arial, sans-serif;
+	font-weight: 200;
+	font-size: 32px;
+}
+
+footer p
+{
+	font-family:'Quattrocento Sans', Arial, sans-serif ;
+	font-size: 16px;
+	color: #999;
+	margin-bottom: 40px;
+}
+.sous_images_description
+{
+	font-family:'Quattrocento Sans', Arial, sans-serif ;
+	font-size: 12px;
+	font-style: italic;
+}
+.sous_images_description:hover
+{
+	background-color: yellow;
+}
